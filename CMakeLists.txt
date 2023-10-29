@@ -14,6 +14,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(JUCE)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
+
 set(FORMATS "VST3" "Standalone")
 
 juce_add_plugin(EQ-Plugin
